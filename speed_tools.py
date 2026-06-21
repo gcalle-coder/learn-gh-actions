@@ -15,4 +15,4 @@ def braking_distance(speed_ms: float, deceleration: float) -> float:
     """Distancia de frenado (m) dada v inicial (m/s) y deceleración (m/s^2)."""
     if deceleration <= 0:
         raise ValueError("La deceleración debe ser positiva")
-    return (speed_ms ** 2) / (2 * deceleration)
+    return (speed_ms**2) / (2 * deceleration)
